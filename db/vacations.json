@@ -1,0 +1,44 @@
+{
+  "vacation1": {
+    "name": "Asia's Best Boutique Hotels",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "vacation2": {
+    "name": "Thailand Bucket List",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "vacation3": {
+    "name": "15 Incredible Places to Visit in Vietnam",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "vacation4": {
+    "name": "Top 5 Vacation Spot Ideas for 2020",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "vacation5": {
+    "name": "5 Days in Paris",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "vacation6": {
+    "name": "Things You Must Do and See In Spain",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  }
+}

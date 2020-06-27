@@ -1,0 +1,26 @@
+{
+  "board1": {
+    "name": "Meals",
+    "boardId": "",
+    "pins": "",
+    "userId": ""
+  },
+  "board2": {
+    "name": "Workout",
+    "boardId": "",
+    "pins": "",
+    "userId": ""
+  },
+  "board3": {
+    "name": "Vacation",
+    "boardId": "",
+    "pins": "",
+    "userId": ""
+  },
+  "board4": {
+    "name": "Models",
+    "boardId": "",
+    "pins": "",
+    "userId": ""
+  }
+}

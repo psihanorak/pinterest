@@ -1,0 +1,37 @@
+{
+  "model1": {
+    "name": "Adriana Lima",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "model2": {
+    "name": "Gigi Hadid",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "model3": {
+    "name": "Candice Swanepoel",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "model4": {
+    "name": "Kelly Gale",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "model5": {
+    "name": "Elsa Hosk",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  }
+}
