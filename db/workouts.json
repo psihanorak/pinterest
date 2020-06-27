@@ -1,0 +1,30 @@
+{
+  "workout1": {
+    "name": "Burn 1,000 Calories",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "workout2": {
+    "name": "High Protein Muscle Building Foods",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "workout3": {
+    "name": "Top 10 Sports Supplements",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "workout4": {
+    "name": "10 Week Mass Building Program",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meal1": {
+    "name": "Garlic Butter Baked Salmon",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "meal2": {
+    "name": "Gaucho Ribeye Steak",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  },
+  "meal3": {
+    "name": "Poke Bowl",
+    "boardId": "",
+    "imageURL": "",
+    "URL": "",
+    "pinId": ""
+  }
+}
