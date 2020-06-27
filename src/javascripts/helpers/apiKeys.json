@@ -1,0 +1,11 @@
+{
+  "firebaseConfig": {
+    "apiKey": "AIzaSyBtX92afCbxiYoptUPSb5FlLoS1q_GvBaU",
+    "authDomain": "pinterest-843dd.firebaseapp.com",
+    "databaseURL": "https://pinterest-843dd.firebaseio.com",
+    "projectId": "pinterest-843dd",
+    "storageBucket": "pinterest-843dd.appspot.com",
+    "messagingSenderId": "161001919101",
+    "appId": "1:161001919101:web:b311d7526ce4078fd99714"
+  }
+}
