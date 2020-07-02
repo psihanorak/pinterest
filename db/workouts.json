@@ -1,30 +1,22 @@
 {
   "workout1": {
     "name": "Burn 1,000 Calories",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/53/fa/2d/53fa2d6eccc920b1e0176a714d34be47.jpg",
+    "URL": "http://kiwisplan.com/workouts-that-burn-1000-calories/"
   },
   "workout2": {
     "name": "High Protein Muscle Building Foods",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/b5/42/5b/b5425bb39a4212fd82ea5b49aa196dd0.jpg",
+    "URL": "https://www.gymguider.com/7-sources-of-protein-that-will-help-muscle-gain-and-health/"
   },
   "workout3": {
     "name": "Top 10 Sports Supplements",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/ae/06/aa/ae06aabb5c34b821d7cd08b728993c35.jpg",
+    "URL": "https://yourherbalsuppliments.com/product-category/bodybuilding-nutrition-supplements/"
   },
   "workout4": {
     "name": "10 Week Mass Building Program",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/52/5d/7d/525d7d8d5b983e067b9546d5ae70779b.jpg",
+    "URL": "https://www.muscleandstrength.com/workouts/10-week-mass-building-program.html"
   }
 }

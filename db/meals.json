@@ -1,23 +1,17 @@
 {
   "meal1": {
     "name": "Garlic Butter Baked Salmon",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/564x/d5/0d/99/d50d999b8f88bbdcf5b319377881cdba.jpg",
+    "URL": "https://littlespicejar.com/garlic-butter-baked-salmon-in-foil/"
   },
   "meal2": {
-    "name": "Gaucho Ribeye Steak",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "name": "Grilled Skirt Steak with Chimichurri",
+    "imageURL": "https://i.pinimg.com/236x/59/7b/10/597b105dd8b6781fe5a569583f814ddc.jpg",
+    "URL": "https://thewoksoflife.com/grilled-skirt-steak-chimichurri/"
   },
   "meal3": {
     "name": "Poke Bowl",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/24/38/cf/2438cf24efbd6a060508a70a7434edec.jpg",
+    "URL": "https://www.brit.co/easy-poke-bowls-lunch-recipes/"
   }
 }

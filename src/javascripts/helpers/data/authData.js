@@ -8,13 +8,13 @@ const checkLoginStatus = () => {
     if (user) {
       $('#login').hide();
       $('#logout').show();
-      $('#boards').show(boards.boardsHeader);
-      $('#home').hide(home.pinterestHeader);
+      $('#boards').show(boards.createHeader);
+      $('#home').show(home.homeHeader);
     } else {
       $('#login').show();
       $('#logout').hide();
-      $('#boards').hide(boards.boardsHeader);
-      $('#home').show(home.pinterestHeader);
+      $('#boards').hide(boards.createHeader);
+      $('#home').show(home.homeHeader);
     }
   });
 };

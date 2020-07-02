@@ -1,11 +1,11 @@
 import utils from '../../helpers/utils';
 
-const pinterestHeader = () => {
+const homeHeader = () => {
   let domString = '';
-  domString += `<div id="home">
+  domString += `<div id="home-header">
                 <h1>Pinterest</h1>
                 </div>`;
   utils.printToDom('#home', domString);
 };
 
-export default { pinterestHeader };
+export default { homeHeader };
