@@ -1,37 +1,27 @@
 {
   "model1": {
     "name": "Adriana Lima",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/55/f0/b5/55f0b5d067ef1d13034a6ec7d924d609.jpg",
+    "URL": "https://forum.purseblog.com/threads/adriana-lima-thread.461646/page-39"
   },
   "model2": {
     "name": "Gigi Hadid",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/d4/0e/0d/d40e0db158d4ab7f08e6b81f331c4f22.jpg",
+    "URL": "https://www.vogue.fr/beaute/en-vue/diaporama/gigi-hadid-coiffures-cheveux/37940"
   },
   "model3": {
     "name": "Candice Swanepoel",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/5b/1e/e1/5b1ee1192424ec0c39db5e0c41be618c.jpg",
+    "URL": "https://www.galvanlondon.com/blogs/press/candice-swanepoel-wears-galvan-in-vogue-hk"
   },
   "model4": {
     "name": "Kelly Gale",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/5d/88/e2/5d88e203678df85492430abf926b9105.jpg",
+    "URL": "https://www.iceposter.com/posters/Kelly_Gale/G722856_Kelly_Gale_Poster.html#.XvtxaC2z1TY"
   },
   "model5": {
     "name": "Elsa Hosk",
-    "boardId": "",
-    "imageURL": "",
-    "URL": "",
-    "pinId": ""
+    "imageURL": "https://i.pinimg.com/236x/17/12/90/1712901415b08e0b5e5f3dd3e289df39.jpg",
+    "URL": "https://www.vogue.com/article/elsa-hosk-abs-fashion-awards"
   }
 }
