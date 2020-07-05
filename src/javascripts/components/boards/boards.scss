@@ -18,3 +18,31 @@
     border-radius: 50%;
   }
 }
+
+.grid-container {
+  #grids {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    margin: 10px 10px 50px;
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    #grid {
+      border: 1px solid #e6e6e6;
+    }
+  }
+  #category {
+    position: absolute;
+    top: 85%;
+    margin-left: 15px;
+    h5 {
+      font-size: 25px;
+    };
+  }
+  &:hover {
+    background-color: #999999;
+    border-radius: 10px;
+    transition: .3s;
+  }
+}
