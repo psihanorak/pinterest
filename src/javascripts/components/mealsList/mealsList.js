@@ -1,5 +1,6 @@
 import mealsData from '../../helpers/data/mealsData';
 import mealsComponent from '../meals/meals';
+import boardList from '../boardList/boardList';
 import utils from '../../helpers/utils';
 
 const createMeals = () => {
@@ -8,6 +9,9 @@ const createMeals = () => {
       console.warn('createMeals worked!', meals);
       let domString = `<div id="meal-header">
                         <h1>Meals</h1>
+                       </div>
+                       <div id="back-to-boards">
+                       <a><span>Back to Boards</span></a>
                        </div>
                        <div id="meal-category" class="d-flex flex-wrap">
                       `;
@@ -28,6 +32,15 @@ const showMealsEvent = (e) => {
   createMeals(boardId);
   $('#board-header').hide();
   $('#wallBoard').hide();
+  $('#meals').show();
 };
 
-export default { createMeals, showMealsEvent };
+const hideMealsEvent = (e) => {
+  const boardId = e.target.id;
+  boardList.createWallBoard(boardId);
+  $('#board-header').show();
+  $('#wallBoard').show();
+  $('#meals').hide();
+};
+
+export default { createMeals, showMealsEvent, hideMealsEvent };
