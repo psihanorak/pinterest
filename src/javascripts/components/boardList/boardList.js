@@ -6,14 +6,18 @@ const createWallBoard = () => {
   boardData.getBoards()
     .then((boards) => {
       let domString = `
-                      <div id="categories" class="d-flex flex-wrap">
-                      `;
+        <div class="d-flex flex-wrap">
+      `;
+
       boards.forEach((board) => {
         domString += boardsComponent.boardMaker(board);
       });
+
       domString += '</div>';
+
       utils.printToDom('#wallBoard', domString);
-    });
+    })
+    .catch((err) => console.error('createWallBoard did not work', err));
 };
 
 export default { createWallBoard };
