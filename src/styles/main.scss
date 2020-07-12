@@ -4,10 +4,22 @@
 @import "../javascripts/components/home/home.scss";
 @import "../javascripts/components/boards/boards.scss";
 @import "../javascripts/components/boardList/boardList.scss";
+@import "../javascripts/components/meals/meals.scss";
+@import "../javascripts/components/mealsList/mealsList.scss";
 
 body {
   position: relative;
   margin: 0;
   padding: 0;
   background-color: #e6e6e6;
+  #wallBoard {
+    position: absolute;
+    top: 400%;
+    left: 15%;
+  }
+  #meals {
+    position: absolute;
+    top: 400%;
+    left: 35%;
+  }
 }
