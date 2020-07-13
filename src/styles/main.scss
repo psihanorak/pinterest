@@ -8,6 +8,8 @@
 @import "../javascripts/components/mealsList/mealsList.scss";
 @import "../javascripts/components/workouts/workouts.scss";
 @import "../javascripts/components/workoutsList/workoutsList.scss";
+@import "../javascripts/components/vacations/vacations.scss";
+@import "../javascripts/components/vacationsList/vacationsList.scss";
 
 body {
   position: relative;
@@ -28,5 +30,10 @@ body {
     position: absolute;
     top: 400%;
     left: 23%;
+  }
+  #vacations {
+    position: absolute;
+    top: 400%;
+    left: 13%;
   }
 }
