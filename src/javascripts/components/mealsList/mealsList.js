@@ -6,11 +6,11 @@ import utils from '../../helpers/utils';
 const createMeals = () => {
   mealsData.getMeals()
     .then((meals) => {
-      console.warn('createMeals worked!', meals);
+      console.warn('getMeals worked!', meals);
       let domString = `<div id="meal-header">
                         <h1>Meals</h1>
                        </div>
-                       <div id="back-to-boards">
+                       <div id="meals-to-boards">
                        <a><span>Back to Boards</span></a>
                        </div>
                        <div id="meal-category" class="d-flex flex-wrap">
@@ -24,7 +24,7 @@ const createMeals = () => {
 
       utils.printToDom('#meals', domString);
     })
-    .catch((err) => console.error('createMeals did not work!', err));
+    .catch((err) => console.error('getMeals did not work!', err));
 };
 
 const showMealsEvent = (e) => {

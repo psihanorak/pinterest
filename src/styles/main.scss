@@ -6,6 +6,8 @@
 @import "../javascripts/components/boardList/boardList.scss";
 @import "../javascripts/components/meals/meals.scss";
 @import "../javascripts/components/mealsList/mealsList.scss";
+@import "../javascripts/components/workouts/workouts.scss";
+@import "../javascripts/components/workoutsList/workoutsList.scss";
 
 body {
   position: relative;
@@ -21,5 +23,10 @@ body {
     position: absolute;
     top: 400%;
     left: 35%;
+  }
+  #workouts {
+    position: absolute;
+    top: 400%;
+    left: 23%;
   }
 }
