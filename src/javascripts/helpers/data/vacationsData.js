@@ -17,4 +17,8 @@ const getVacations = () => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getVacations };
+const getVacationsById = (vacationsId) => axios.get(`${baseUrl}/vacations/${vacationsId}.json`);
+
+const deleteVacations = (vacationsId) => axios.delete(`${baseUrl}/vacations/${vacationsId}.json`);
+
+export default { getVacations, getVacationsById, deleteVacations };

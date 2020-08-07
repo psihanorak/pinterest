@@ -17,4 +17,8 @@ const getWorkouts = () => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getWorkouts };
+const getWorkoutsById = (workoutsId) => axios.get(`${baseUrl}/workouts/${workoutsId}.json`);
+
+const deleteWorkouts = (workoutsId) => axios.delete(`${baseUrl}/workouts/${workoutsId}.json`);
+
+export default { getWorkouts, getWorkoutsById, deleteWorkouts };

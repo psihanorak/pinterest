@@ -1,0 +1,32 @@
+#grid-container {
+  #grids {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    background-color: #cccccc;
+    border-radius: 10px;
+    margin: 5em 1em 1em;
+    .pin {
+      border: 1px solid #e6e6e6;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: #b3b3b3;
+      transition: .3s;
+    }
+  }
+  #category-edit {
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 2em;
+    .fa-edit {
+      padding: 6px;
+      background-color: #cccccc;
+      border-radius: 50%;
+      &:hover {
+        background-color: #b3b3b3;
+        cursor: pointer;
+      }
+    }
+  }
+}

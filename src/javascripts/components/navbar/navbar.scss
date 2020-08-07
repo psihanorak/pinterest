@@ -1,7 +1,12 @@
 #navbar {
   box-shadow: 7px 11px 56px -5px rgba(56,56,56,0.52);
-  .dropdown-menu {
-    position: absolute;
-    left: 91.5%;
-  }
+}
+
+.fa-pinterest {
+  color: red;
+}
+
+#dropdown-log {
+  right: 0;
+  left: auto;
 }

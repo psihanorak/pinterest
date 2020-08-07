@@ -1,8 +1,11 @@
 import firebase from 'firebase/app';
+
 import apiKeys from './helpers/apiKeys.json';
-import navbar from './components/navbar/navbar';
 import authData from './helpers/data/authData';
 import clickEvents from './helpers/clickEvents';
+
+import navbar from './components/navbar/navbar';
+
 import 'bootstrap';
 import '../styles/main.scss';
 
