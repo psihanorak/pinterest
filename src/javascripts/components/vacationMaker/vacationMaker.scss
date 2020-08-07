@@ -1,0 +1,26 @@
+#vacations-category {
+  .vacations-pin { 
+    border-radius: 10px;
+    width: auto;
+    height: 300px;
+    margin: 5em 1em 1em;
+    &:hover {
+      opacity: .7;
+      cursor: pointer;
+      transition: .3s;
+    }
+  }
+  #vacations-edit {
+    display: flex;
+    justify-content: center;
+    .fa-edit {
+      padding: 6px;
+      background-color: #cccccc;
+      border-radius: 50%;
+      &:hover {
+        background-color: #b3b3b3;
+        cursor: pointer;
+      }
+    }
+  }
+}

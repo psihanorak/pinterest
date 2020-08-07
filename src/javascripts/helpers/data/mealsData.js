@@ -17,4 +17,8 @@ const getMeals = () => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getMeals };
+const getMealsById = (mealsId) => axios.get(`${baseUrl}/meals/${mealsId}.json`);
+
+const deleteMeals = (mealsId) => axios.delete(`${baseUrl}/meals/${mealsId}.json`);
+
+export default { getMeals, getMealsById, deleteMeals };

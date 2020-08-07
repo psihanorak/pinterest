@@ -1,46 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-@import "../javascripts/components/navbar/navbar.scss";
-@import "../javascripts/components/home/home.scss";
-@import "../javascripts/components/boards/boards.scss";
-@import "../javascripts/components/boardList/boardList.scss";
-@import "../javascripts/components/meals/meals.scss";
-@import "../javascripts/components/mealsList/mealsList.scss";
-@import "../javascripts/components/workouts/workouts.scss";
-@import "../javascripts/components/workoutsList/workoutsList.scss";
-@import "../javascripts/components/vacations/vacations.scss";
-@import "../javascripts/components/vacationsList/vacationsList.scss";
-@import "../javascripts/components/supermodels/models.scss";
-@import "../javascripts/components/supermodelsList/modelsList.scss";
 
 body {
-  position: relative;
   margin: 0;
   padding: 0;
   background-color: #e6e6e6;
-  #wallBoard {
-    position: absolute;
-    top: 400%;
-    left: 15%;
-  }
-  #meals {
-    position: absolute;
-    top: 400%;
-    left: 35%;
-  }
-  #workouts {
-    position: absolute;
-    top: 400%;
-    left: 23%;
-  }
-  #vacations {
-    position: absolute;
-    top: 400%;
-    left: 13%;
-  }
-  #models {
-    position: absolute;
-    top: 400%;
-    left: 14%;
+}
+
+.hide {
+  display: none;
+}
+
+#avatar {
+  img {
+    max-width: 8em;
+    max-height: 8em;
+    border-radius: 50%;
   }
 }
